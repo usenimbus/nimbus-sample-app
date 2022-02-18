@@ -2,4 +2,4 @@ Name: "Nimbus Sample Environment"
 
 Commands:
     - cd /home/nimbus-user; sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash && . ~/.nvm/nvm.sh && nvm install node && source ~/.zshrc; cd /workspace/nimbus; npx create-react-app nimbus-sample --y
+    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | zsh && . ~/.nvm/nvm.sh && nvm install node && source ~/.zshrc; cd /workspace/nimbus; npx --yes create-react-app nimbus-sample
