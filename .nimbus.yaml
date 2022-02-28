@@ -1,5 +1,5 @@
 Name: "Nimbus Sample Environment"
 
 Commands:
-    - cd /home/nimbus-user; sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | zsh && . ~/.nvm/nvm.sh && nvm install node && source ~/.zshrc; cd /workspace/nimbus; npx --yes create-react-app nimbus-sample
+    - sudo apt-get update
+    - sudo apt-get install -y curl wget sudo gnupg nano net-tools openssh-server git neofetch tree zsh apt-transport-https ca-certificates build-essential gh chromium postgresql-13
